@@ -1,0 +1,56 @@
+@font-face {
+    font-family: BaiJamjuree-Bold;
+    src: url(C:\Users\filip\Desktop\Games\devclass-catalogo-carros-main\BaiJamjuree-Bold);
+}
+body {  
+    font-family: sans-serif;
+    font-family: BaiJamjuree-Bold;
+    
+}
+form {
+    border: 2px solid lightgray;
+    padding: .6rem;
+    border-radius: 0 .4rem .4rem .4rem;
+}
+textarea {
+    padding: 5px;
+    resize: none;
+    width: 100%;
+    border: none;
+    font-size: .8rem;
+    font-family: sans-serif;
+    outline-color: rgba(9, 63, 241, 0.808);
+}
+.an {
+    display: flex;
+    align-items: center;
+}
+.an span {
+    background-color: grey;
+    width: 8px;
+    height: 8px;
+    margin-right: .4rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+button {
+    height: 30px;
+    width: 60px;
+    background-color: rgba(9, 63, 241, 0.808);
+    color: white;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+
+}
+button:hover {
+    transition: 1s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

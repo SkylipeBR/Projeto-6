@@ -1,0 +1,33 @@
+<html>
+    <link rel="stylesheet" href="Projeto6.css">
+        <head>
+            <title>Projeto 6</title>
+        </head>
+    <body>
+        <form action="">
+        <textarea class="ask" id="ask" placeholder="O que você quer perguntar?"></textarea>
+        <footer>
+            <div class="an">
+                <span>.</span>
+                <p>Esta pergunta é Anônima</p>
+            </div>
+            <button onclick="exame()">Enviar</button>
+        </footer>
+        </form>
+    </body>
+
+
+    <script>
+        function exame() {
+            var valor = document.getElementById('ask').value;
+            var texto = "qual o seu nome?";
+
+            if (valor === texto) {
+                alert("Filipe Angelo");
+            }
+            else {
+                alert('Essa pergunta não é correta');
+            }
+        }
+    </script>
+</html>
